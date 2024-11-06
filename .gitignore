@@ -1,0 +1,87 @@
+# Binaries for programs and libraries
+*.class
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+*.log
+*.gz
+
+# sbt-specific files
+target/
+lib_managed/
+src_managed/
+project/target/
+project/project/
+
+# Root-level .bsp directory (BSP configuration files)
+.bsp/
+
+# Compiled class files
+*.class
+
+# Packages
+*.jar
+*.war
+*.ear
+
+# IDEs
+*.idea
+.idea_modules/
+*.iml
+*.ipr
+*.iws
+.DS_Store
+
+# VS Code
+.vscode/
+
+# macOS specific files
+.DS_Store
+
+# Scala cache and compiled files
+cache/
+*.log
+*.tmp
+
+# SBT-specific files
+.project
+.target
+.cache
+.history
+.lib/
+
+# ScalaTest reports
+test-reports/
+
+# Log files
+*.log
+
+# Config files
+# Uncomment if you have secret settings in these files
+# application.conf
+# .env
+
+# Others
+dist/
+out/
+
+# Bloop
+.bloop/
+
+# Metals
+.metals/
+.metals/metals.log
+.metals/readonly/
+.metals/bsp.trace.json
+
+# Additional Metals workspace files
+.metals/.cache/
+.metals/.bloop/
+
+# Other IDE or tool configurations
+.idea/
+.vscode/
